@@ -10,5 +10,5 @@ dnf5 install -y keyd
 dnf5 install -y ulauncher
 
 # Install ghostty
-dnf5 copr enable pgdev/ghostty
-dnf5 install ghostty
+dnf5 copr enable -y pgdev/ghostty
+dnf5 install -y ghostty
