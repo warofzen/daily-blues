@@ -3,8 +3,8 @@
 set -ouex pipefail
 
 # Install keyd
-dnf copr enable alternateved/keyd
-dnf install keyd -y
+dnf5 copr enable alternateved/keyd
+dnf5 install -y keyd
 
 # Install ulauncher
-dnf install -y ulauncher
+dnf5 install -y ulauncher
